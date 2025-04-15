@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/dumitrache-adrian92/ci_cd_lab:latest@sha256:946b11d36bb44c8e2083961225c7cc41a4b8c0b281427985008a0e7175c2953c
+          image: ghcr.io/dumitrache-adrian92/ci_cd_lab:latest@sha256:946b11d36bb44c8e2083961225c7cc41a4b8c0b281427985008a0e7175c295asbnginwjgnawjkegnajkw3c
           ports:
             - containerPort: 8080
           imagePullPolicy: Always
