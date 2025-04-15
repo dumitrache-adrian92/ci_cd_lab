@@ -22,3 +22,6 @@ jobs:
 
       - name: Compile binary
         run: go build -o myapp
+
+      - name: Run tests
+        run: go test ./..
